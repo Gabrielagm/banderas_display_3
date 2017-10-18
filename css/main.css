@@ -1,0 +1,30 @@
+*{
+    box-sizing:border-box;/*Para que el padding y border del elemento no incrementan su ancho*/
+    font-size:15px;
+    padding:4px;
+}
+
+
+.yellow{
+    background-color: #ffc107 ;/*color de fondo*/
+    text-decoration:none;/*Para quitarle la raya al hipervínculo*/
+    border:1px solid #ffc107;
+    color:#333333;
+    height:110px;/*alto*/
+    width:18%;/*ancho*/
+    padding:9px;/*Para separar el contenido del borde:relleno*/
+    display:inline-block;/*Para que adopte comportamiento de bloque*/  
+   
+}
+.black{
+    background-color: #333333;
+    text-decoration:none;
+    border:1px solid #333333;
+    color: #fff;
+    height:110px;
+    width:18%;
+    padding:9px;
+    margin-left:12px;/*Para generar espacio entre la caja amarilla y la negra por el lado izquierdo*/
+    margin-right:12px;/*Para generar espacio entre la caja amarilla y la negra por el lado derecho*/
+    display:inline-block;
+}
